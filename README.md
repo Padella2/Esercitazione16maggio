@@ -16,16 +16,21 @@ Programma che, dati in input 10 numeri positivi, trovi il massimo e lo visualizz
 Inizializza il repository locale
 
 > git add file.estensione
+
 Inserimento del file README.md nell'area di staging
 
 > git commit -m "first commit"
+
 Creazione del primo commit, che serve a sincronizzare il repository locale con lo stage
 
 > git branch -M main
+
 Creazione del branch main, da usare come default
 
 > git remote add origin "URL della repository"
+
 Connessione del repository remoto al repository locale
 
 > git push -u origin main
+
 Sincronizzazione del repository remoto con quello locale
